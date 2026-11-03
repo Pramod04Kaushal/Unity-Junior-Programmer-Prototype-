@@ -486,9 +486,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 45
-  orthographic: 0
-  orthographic size: 10
+  field of view: 68
+  orthographic: 1
+  orthographic size: 13.15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -614,7 +614,6 @@ MonoBehaviour:
   - {fileID: 1859857665372454094, guid: 9fd13d976773a5b48be3b8b34e559549, type: 3}
   - {fileID: 4503325843286122663, guid: c6c8f59656ad7294d94c2f4fc9e73739, type: 3}
   - {fileID: 1786063319805951505, guid: 105ed2fb1f97dbb4d9a486d6f38b40b3, type: 3}
-  animalIndex: 2
 --- !u!4 &613103514
 Transform:
   m_ObjectHideFlags: 0
@@ -940,7 +939,7 @@ MonoBehaviour:
     m_Flags: 0
     m_Priority: 0
   moveInput: {x: 0, y: 0}
-  speed: 10
+  speed: 15
   xRange: 15
   projectilePrefab: {fileID: 3380874457001051501, guid: 197ae074cf11f4f45bf9e0aa40fd5322, type: 3}
 --- !u!1001 &3074641165193319902
@@ -957,7 +956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2263310438793840652, guid: 197ae074cf11f4f45bf9e0aa40fd5322, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2263310438793840652, guid: 197ae074cf11f4f45bf9e0aa40fd5322, type: 3}
       propertyPath: m_LocalPosition.z
